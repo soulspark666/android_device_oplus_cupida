@@ -18,7 +18,7 @@
 
 set -e
 
-export DEVICE=denniz
+export DEVICE=cupida
 export VENDOR=oplus
 
 # Load extract_utils and do some sanity checks

@@ -14,18 +14,14 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oplus/denniz
+DEVICE_PATH := device/oplus/cupida
 
-# Inherit from motorola sm6375-common
-$(call inherit-product, device/oplus/mt6893-common/common.mk)
-
-# Alert slider
-PRODUCT_PACKAGES += \
-    alert-slider_daemon
+# Inherit from ossi device
+$(call inherit-product, device/oplus/mt6893-common/ossi.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SettingsProviderOverlayDenniz
+    SettingsProviderOverlayCupida
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/oplus/denniz/denniz-vendor.mk)
+$(call inherit-product, vendor/oplus/cupida/cupida-vendor.mk)

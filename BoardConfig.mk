@@ -14,26 +14,21 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oplus/denniz
+DEVICE_PATH := device/oplus/cupida
 
 # Inherit from oplus mt6893-common
 include device/oplus/mt6893-common/BoardConfigCommon.mk
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := denniz,OP515BL1
+TARGET_OTA_ASSERT_DEVICE := cupida,RMX3031,RMX3033
 
 # Kernel
-TARGET_KERNEL_CONFIG := denniz_defconfig
+TARGET_KERNEL_CONFIG := cupida_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# DTB
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
-TARGET_PREBUILT_DTB := $(BOARD_PREBUILT_DTBIMAGE_DIR)/denniz.dtb
-BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_denniz
-TARGET_RECOVERY_DEVICE_MODULES ?= init_denniz
+TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_cupida
+TARGET_RECOVERY_DEVICE_MODULES ?= init_cupida
 
 # Call proprietary blob setup
-include vendor/oplus/denniz/BoardConfigVendor.mk
+include vendor/oplus/cupida/BoardConfigVendor.mk

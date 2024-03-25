@@ -18,7 +18,7 @@
 
 set -e
 
-export DEVICE=denniz
+export DEVICE=cupida
 export VENDOR=oplus
 
 INITIAL_COPYRIGHT_YEAR=2024
@@ -40,7 +40,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
 
 # Copyright headers and guards
-write_headers "denniz"
+write_headers "cupida"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

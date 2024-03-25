@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_denniz.mk
+    $(LOCAL_DIR)/lineage_cupida.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_denniz-user \
-    lineage_denniz-userdebug \
-    lineage_denniz-eng
+    lineage_cupida-user \
+    lineage_cupida-userdebug \
+    lineage_cupida-eng
