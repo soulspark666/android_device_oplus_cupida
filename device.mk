@@ -22,7 +22,8 @@ $(call inherit-product, device/oplus/mt6893-common/ossi.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayCupida \
-    SettingsProviderOverlayCupida
+    SettingsProviderOverlayCupida \
+    WifiOverlayCupida
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/cupida/cupida-vendor.mk)
