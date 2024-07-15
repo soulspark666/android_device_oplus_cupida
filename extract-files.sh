@@ -51,9 +51,6 @@ function blob_fixup {
         vendor/lib64/libcam.utils.sensorprovider.so)
             "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-v30.so" "${2}"
             ;;
-        vendor/lib64/lib3a.af.core.so)
-            "${PATCHELF}" --add-needed "libshim_camera.so" "${2}"
-            ;;
     esac
 }
 
