@@ -25,5 +25,9 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayCupida \
     WifiOverlayCupida
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_camera
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oplus/cupida/cupida-vendor.mk)
