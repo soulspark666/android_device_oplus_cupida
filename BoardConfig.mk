@@ -22,6 +22,8 @@ include device/oplus/mt6893-common/BoardConfigCommon.mk
 
 TARGET_2ND_ARCH_VARIANT := armv8-2a
 
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U
+
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := cupida,RMX3031,RMX3033
 
