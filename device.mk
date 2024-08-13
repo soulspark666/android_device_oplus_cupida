@@ -17,7 +17,7 @@
 DEVICE_PATH := device/oplus/cupida
 
 # Inherit from ossi device
-$(call inherit-product, device/oplus/mt6893-common/ossi.mk)
+$(call inherit-product, device/oplus/mt6893-common/common.mk)
 
 # Inherit several Android Go Configurations (Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
