@@ -283,12 +283,6 @@ vendor/etc/init/camerahalserver.rc
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
-vendor/lib/libMtkOmxAdpcmDec.so
-vendor/lib/libMtkOmxAlacDec.so
-vendor/lib/libMtkOmxApeDec.so
-vendor/lib/libMtkOmxCore.so
-vendor/lib/libMtkOmxGsmDec.so
-vendor/lib/libMtkOmxMp3Dec.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libSQLiteModule_VER_ALL.so
 vendor/lib/libcamdrv_imem.so
