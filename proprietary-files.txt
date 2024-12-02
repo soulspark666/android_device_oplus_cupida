@@ -4,10 +4,6 @@
 vendor/lib64/lib3a.af.core.so|0d3c747b1bb8a85289aae1226f9da70927103486
 
 # Camera
-lib/vendor.oplus.hardware.cameraextension@1.0.so
--lib/vendor.oplus.hardware.cammidasservice@1.0.so
-lib64/vendor.oplus.hardware.cameraextension@1.0.so
--lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service
 odm/etc/init/init.camera_update.rc
 odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
@@ -605,12 +601,6 @@ vendor/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so
 vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so
 vendor/lib64/imx355_mipi_raw21015_IdxMgr.so
 vendor/lib64/gc02m1b_mipi_mono_IdxMgr.so
-
-# Camera (tuning)
-odm/lib64/gc02m1b_mipi_mono20817_tuning.so
-odm/lib64/imx355_mipi_raw20817_tuning.so
-odm/lib64/imx615_mipi_raw20817_tuning.so
-odm/lib64/imx766_mipi_raw20817_tuning.so
 
 # Camera-configs
 odm/etc/camera/CameraHWConfiguration.config
