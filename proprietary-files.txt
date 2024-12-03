@@ -242,7 +242,6 @@ vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib/libMtkSpeechEnh.so
-vendor/lib/libSQLiteModule_VER_ALL.so
 vendor/lib/libcamdrv_imem.so
 vendor/lib/libcamdrv_isp.so
 vendor/lib/libcamdrv_tuning_mgr.so
@@ -584,9 +583,6 @@ odm/firmware/aw8697_haptic_170_soft.bin
 odm/firmware/aw8697_haptic_235.bin
 odm/firmware/aw8697_haptic_235_19161.bin
 odm/firmware/tfa98xx.cnt
-vendor/bin/lib3a.ccu.ddr
-vendor/bin/lib3a.ccu.dm
-vendor/bin/lib3a.ccu.pm
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin
 vendor/firmware/conninfra.cfg
