@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupida.mk
+    $(LOCAL_DIR)/voltage_cupida.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupida-user \
-    lineage_cupida-userdebug \
-    lineage_cupida-eng
+    voltage_cupida-user \
+    voltage_cupida-userdebug \
+    voltage_cupida-eng
