@@ -30,3 +30,6 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Call proprietary blob setup
 include vendor/oplus/cupida/BoardConfigVendor.mk
+
+# Reserve space for gapps install
+-include vendor/voltage/config/BoardConfigReservedSize.mk

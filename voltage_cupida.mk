@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2021 Android Open Source Project
 #
@@ -37,3 +38,11 @@ PRODUCT_BUILD_PROP_OVERRIDES := BuildDesc=$(call normalize-path-list, "sys_mssi_
 PRODUCT_PROPERTY_OVERRIDES := ro.build.fingerprint=$(BUILD_FINGERPRINT)
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 EXTRA_UDFPS_ANIMATIONS := true
+
+-include vendor/voltage/config/BoardConfigReservedSize.mk
+
+# GMS space alot
+WITH_GMS := true
+BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE := false
+PRODUCT_IS_ATV := false
+TARGET_BOOT_ANIMATION_RES := 1920
