@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cupida.mk
+    $(LOCAL_DIR)/twrp_cupida.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cupida-user \
-    lineage_cupida-userdebug \
-    lineage_cupida-eng
+    twrp_cupida-user \
+    twrp_cupida-userdebug \
+    twrp_cupida-eng
