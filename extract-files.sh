@@ -66,6 +66,7 @@ SECTION=
 KANG=
 
 while [ "${#}" -gt 0 ]; do
+sed -i -E '/^[^#[:space:]]/ s|;?DISABLE_DEPS||g; /^[^#[:space:]]/ { /[.]apk/! s|([^;|[:space:]]+)(\|.*)?|\1;DISABLE_DEPS\2| }' "${MY_DIR}/proprietary-files.txt"
     case "${1}" in
         -n | --no-cleanup )
                 CLEAN_VENDOR=false
@@ -95,3 +96,5 @@ extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
 bash "${MY_DIR}/setup-makefiles.sh"
+
+sed -i -E 's|;?DISABLE_DEPS||g' "${MY_DIR}/proprietary-files.txt"
