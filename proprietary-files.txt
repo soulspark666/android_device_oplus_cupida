@@ -266,7 +266,6 @@ vendor/lib/libheichal.so
 vendor/lib/libispcameraca.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
-vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmtkares.so
