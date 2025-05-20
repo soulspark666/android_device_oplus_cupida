@@ -218,7 +218,7 @@ odm/lib64/libanc_np-loader.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
-odm/lib64/libcamera_core_hwi.so
+odm/lib64/libcamera_core_hwi.so;MODULE_SUFFIX=_odm
 odm/lib64/libcdsprpc.so
 odm/lib64/libhyperlapse.so
 odm/lib64/liblvimfs.so
@@ -229,8 +229,8 @@ odm/lib64/libml_util.so
 odm/lib64/libmotionblur.so
 odm/lib64/libmpbase.so
 odm/lib64/libnp-loader.so
-odm/lib64/libocam_common.so
-odm/lib64/liboplus_platform_hwi.so
+odm/lib64/libocam_common.so;MODULE_SUFFIX=_odm
+odm/lib64/liboplus_platform_hwi.so;MODULE_SUFFIX=_odm
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libremosaiclib.so
 odm/lib64/libtfavib.so
@@ -238,7 +238,7 @@ odm/lib64/libtflite_mtk_static.so
 odm/lib64/libui.so:odm/lib64/libui_oplus.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/ov02b10_mipi_raw_20615_tuning.so
-odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so;MODULE_SUFFIX=_odm
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
