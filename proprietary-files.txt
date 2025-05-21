@@ -10,7 +10,6 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
 -odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
 odm/lib/liblvimfs.so 
 odm/lib/liblvimfs_wrapper.so
-odm/lib/libstdc++.so
 odm/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=_odm
 odm/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=_odm
@@ -219,7 +218,6 @@ odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
 odm/lib64/libcamera_core_hwi.so;MODULE_SUFFIX=_odm
-odm/lib64/libcdsprpc.so
 odm/lib64/libhyperlapse.so
 odm/lib64/liblvimfs.so
 odm/lib64/liblvimfs_wrapper.so
