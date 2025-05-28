@@ -28,9 +28,5 @@ TARGET_OTA_ASSERT_DEVICE := cupida,RMX3031,RMX3033
 TARGET_KERNEL_CONFIG := cupida_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# Init
-TARGET_INIT_VENDOR_LIB ?= //$(DEVICE_PATH):init_cupida
-TARGET_RECOVERY_DEVICE_MODULES ?= init_cupida
-
 # Call proprietary blob setup
 include vendor/oplus/cupida/BoardConfigVendor.mk
